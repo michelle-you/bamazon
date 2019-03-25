@@ -13,6 +13,8 @@ CREATE TABLE products(
   primary key(id)
 );
 
+SELECT * FROM products;
+
 INSERT INTO products (product_name, department_name, price, stock_quantity);
 
 VALUES ("Miracle Bubbles", "Toys", 18.99, 200),
@@ -26,4 +28,3 @@ VALUES ("Miracle Bubbles", "Toys", 18.99, 200),
     ("Kindle Paperwhite", "Electronics", 129.99, 65),
     ("Nutribullet", "Home and Kitchen", 49.95, 28);
 
-SELECT * FROM products;
